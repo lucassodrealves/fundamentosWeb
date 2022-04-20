@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
     <title>Família BR</title>
+    <style>
+        p{
+            font-size:29pt;
+        }
+        .center{
+            text-align:"center"
+        }
+        #escurece{
+            font-weight:bold ;
+
+        }
+    </style>
 </head>
-<header><h1>Olá pessoas!Eu sou o Lucas</h1></header>
 <nav>
-<ul>
+<ul id="menu">
     <li><a href="index.html">Home</a></li>
     <li><a href="contato.html">Contato</a></li>
 
@@ -15,36 +27,45 @@
 </nav>
 
 <body>
+    <header><h1 class="center">Olá pessoas!Eu sou o Lucas</h1></header>
+    <hr>
     <main>
+        <div class="container">
+            <div>
         <section>
             <article>
-    <p>
-        Lucas é
+
+    <p  id="escurece">
+        Lucas é cabeção</p>
+
+    <p id="escurece">
+        Lucas é bonitão
     </p>
-    <p>
-        Lucas é
+    <p id="escurece">
+        Lucas é chavosão
     </p>
-    <p>
-        Lucas é
-    </p>
+
+
             </article>
         </section>
+    </div>
 
    <!-- <h2>pessoinhas</h2>
     <h3>pessoinhasnhas</h3>
     <h4>pessoinhasnhasnhas</h4>
     <h5>pessoinhasinhasinhasinhasinhas</h5>
     <h6>pessoinhasinhasinhasinhasinhasinhas</h6>-->
-
     <section>
     <article>
+    <div>
     <h2>Foto que agrada</h2>
-    <img src="./assets/img/oTempo.jpg" alt="O Tempo e o Vento-contentamento meu ">
+    <img class="imagem" src="./assets/img/oTempo.jpg" alt="O Tempo e o Vento-contentamento meu ">
     </article>
-   
+    </div>
+    </div>
     <article>
     <h2>Vídeo de dança que agrada:</h2>
-    <iframe 
+    <iframe class="espacamentos"
     width="500" 
     height="399" 
     src="https://www.youtube.com/embed/3gG8YAUqVIs" 
@@ -55,7 +76,14 @@
     </article>
     </section>
 </main>
-
-<footer>Desenvolvido por Lucas - Brasil, SP</footer>
+<hr>
+<footer>
+    <div class="container">
+        <a href="mailto:lucassodrealves4@gmail.com? Subject: Contato&body=Venho até você,Lucas,para" target="_blank">
+        <img style="padding:9px" src="/assets/img/email.png" alt="Um ícone de email de mohamed alli - FlatIcon" width="19px" height="19px">
+        </a>
+    
+    Desenvolvido por Lucas - Brasil, SP-Todos os direitos reservados Lucas Sodré Alves &copy
+</div></footer>
 </body>
 </html>

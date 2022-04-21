@@ -50,7 +50,8 @@ p{
         </div>
     
  <div class="espacamentos">
-<img src="assets/img/oTempo.jpg">
+    <h2>Imagem que responde:</h2>
+<img onmouseover="response()" src="assets/img/oTempo.jpg">
 </div>
 
 
@@ -59,12 +60,22 @@ p{
 
 
 </div>
-<h5 id="Item">Um item</h5>
+<div>
+<h5 id="Item">Um item de tempo</h5>
+<a href="#" onclick="timeMsg()">Clique aqui e aparecerá uma mensagem interessante...</a>
+<div id="tempo"></div>
+</div>
+
+<div>
+<h3>Um espaço</h3>
+<button onclick="spaceMsg()">Clique aqui e veja sua URL</button>
+<div id="espaco"></div>
+</div>
 </main>
 
 
 
-
+<script src="assets/scripts/script.js"></script>
 
 </body>
 
